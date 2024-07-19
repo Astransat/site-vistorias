@@ -1,0 +1,24 @@
+.vistorias{
+    background-color: #e2e2e2;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vistorias h1{
+    text-transform: capitalize;
+    margin-top: 70px;
+}
+
+.table {
+    width: 80%;
+}
+
+.table thead{
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+.table>:not(caption)>*>* {
+    background-color: #d3d3d3;
+}
